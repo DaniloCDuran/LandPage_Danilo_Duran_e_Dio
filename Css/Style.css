@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #33A8DB;
+    text-align: center;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    color: #33A8DB;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+button {
+    background-color: #33A8DB;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2798c1;
+}
+
+/* Garantir que o restante da estrutura não seja alterado */
+#learning-content {
+    background-color: #0f1923; /* Cor de fundo para o conteúdo */
+    color: white; /* Cor do texto */
+    padding: 40px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.learning-header h2 {
+    font-size: 28px;
+    color: #33A8DB;
+    margin-bottom: 20px;
+}
+
+.learning-header p {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.modules {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.module {
+    background-color: #1a2434; /* Fundo do módulo */
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px; /* Largura de cada módulo */
+    text-align: center;
+}
+
+.module img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.module p {
+    font-size: 14px;
+    color: #cfd8dc;
+}
+
+.module:hover {
+    background-color: #33A8DB; /* Cor de fundo ao passar o mouse */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Estilizando o botão do LinkedIn */
+#linkedin-btn {
+    background-color: #0077b5;  /* Cor de fundo do LinkedIn */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Estilo do link dentro do botão */
+#linkedin-btn a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white;  /* Cor do texto */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Efeito de hover no botão */
+#linkedin-btn:hover {
+    background-color: #005c8e; /* Cor mais escura no hover */
+}
+
+#linkedin-btn a:hover {
+    color: #f1f1f1;  /* Cor do texto ao passar o mouse */
+}
